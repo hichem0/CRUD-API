@@ -21,3 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('country', 'CountryCountryController@country' );
 Route::get('country/{id}', 'CountryCountryController@countryById');
 Route::post('country', 'CountryCountryController@countrySave');
+Route::put('country/{id}', 'CountryCountryController@countryUpdate');
+Route::delete('country/{id}', 'CountryCountryController@countryDelete');

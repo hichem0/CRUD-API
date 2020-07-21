@@ -19,7 +19,21 @@ class CountryCountryController extends Controller
 
     public function countrySave(Request $request)
     {
-        $country = CountryCountryModel::create($request->all());
-        return response()->json($country, 201);
+        return response()->json(CountryCountryModel::create($request->all()), 201);
+    }
+
+    public function countryUpdate(Request $request, $id)
+    {
+        $country = CountryCountryModel::findOrFail($id);
+        $country->update($request->all());
+
+        return response()->json($country, 200);
+    }
+
+    public function countryDelete(Request $request, $id){
+
+        $country= CountryCountryModel::findOrFail($id);
+        $country->delete();
+        return response()->json(null, 204);
     }
 }
