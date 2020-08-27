@@ -6,12 +6,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +131,19 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
     </include_path>
   </component>
   <component name="ProjectId" id="1evHdEXsvd0gW14twSACxNh5i3x" />
@@ -177,7 +191,7 @@
       <workItem from="1595195235872" duration="11460000" />
       <workItem from="1595794564920" duration="3703000" />
       <workItem from="1597751470987" duration="2000" />
-      <workItem from="1598483241204" duration="1443000" />
+      <workItem from="1598483241204" duration="3133000" />
     </task>
     <servers />
   </component>
@@ -185,6 +199,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="302" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598533012710">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="302" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1080/-1440.107.1440.900@0.0.1920.1080" timestamp="1598533012710" />
     <state x="781" y="470" key="NewPhpFileDialog" timestamp="1595202626563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -196,10 +214,10 @@
     <state x="639" y="375" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.130.1440.877@0.0.1920.1080" timestamp="1597751470708" />
     <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.1006/-1440.130.1440.877@0.23.1920.1006" timestamp="1595794569477" />
     <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.1006/-1440.132.1440.877@0.23.1920.1006" timestamp="1595195304349" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1598483917263">
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1598533007101">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1440.107.1440.900@0.0.1920.1080" timestamp="1598483917263" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1440.107.1440.900@0.0.1920.1080" timestamp="1598533007101" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1440.109.1440.900@0.0.1920.1080" timestamp="1595207939591" />
   </component>
 </project>
