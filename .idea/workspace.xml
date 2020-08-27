@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56951055-564b-4905-bf11-92d5042eb0d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CRUD-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CRUD-API.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CountryCountryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CountryCountryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -122,6 +129,7 @@
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1evHdEXsvd0gW14twSACxNh5i3x" />
@@ -166,7 +174,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595195232147</updated>
-      <workItem from="1595195235872" duration="10683000" />
+      <workItem from="1595195235872" duration="11460000" />
+      <workItem from="1595794564920" duration="3703000" />
+      <workItem from="1597751470987" duration="2000" />
+      <workItem from="1598483241204" duration="1443000" />
     </task>
     <servers />
   </component>
@@ -178,13 +189,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="781" y="470" key="NewPhpFileDialog/0.0.1920.1080/-1440.109.1440.900@0.0.1920.1080" timestamp="1595202626563" />
-    <state x="639" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1595195304349">
-      <screen x="0" y="23" width="1920" height="1006" />
-    </state>
-    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.1006/-1440.132.1440.877@0.23.1920.1006" timestamp="1595195304349" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1595207939591">
+    <state x="639" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1598483242221">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="639" y="375" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.107.1440.900@0.0.1920.1080" timestamp="1598483242221" />
+    <state x="639" y="375" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.130.1440.877@0.0.1920.1080" timestamp="1597751470708" />
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.1006/-1440.130.1440.877@0.23.1920.1006" timestamp="1595794569477" />
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.1006/-1440.132.1440.877@0.23.1920.1006" timestamp="1595195304349" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1598483917263">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1440.107.1440.900@0.0.1920.1080" timestamp="1598483917263" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1440.109.1440.900@0.0.1920.1080" timestamp="1595207939591" />
   </component>
 </project>
