@@ -15,7 +15,7 @@ class Country extends Controller
      */
     public function index()
     {
-        return response()->json(CountryCountryModel::get(), 200);
+        return response()->json(CountryCountryModel::paginate(10), 200);
     }
 
     /**

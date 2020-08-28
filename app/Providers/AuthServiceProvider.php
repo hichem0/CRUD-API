@@ -26,13 +26,13 @@ class AuthServiceProvider extends ServiceProvider
     {
 
         $this->registerPolicies();
-        Passport::routes();
-
-        $startTime = date("y-m-d H:i:s");
-        $endTime = date("y-m-d H:i:s",
-        strtotime('+7 day +1 hour +30 minutes +30 seconds', strtotime($startTime)));
-        $expTime = \DateTime::createFromFormat("Y-d-m H:i:s", $endTime);
-        Passport::tokensExpireIn($expTime);
+//        Passport::routes();
+//
+//        $startTime = date("y-m-d H:i:s");
+//        $endTime = date("y-m-d H:i:s",
+//        strtotime('+7 day +1 hour +30 minutes +30 seconds', strtotime($startTime)));
+//        $expTime = \DateTime::createFromFormat("Y-d-m H:i:s", $endTime);
+//        Passport::tokensExpireIn($expTime);
 
     }
 }
